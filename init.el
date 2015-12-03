@@ -1,5 +1,5 @@
 (global-linum-mode t) ;; set up line numbers
-(setq make-backup-files t) ;; Don't make backupFile~
+(setq make-backup-files nil) ;; Don't make backupFile~
 (setq-default indent-tabs-mode nil) ;; use spaces not tabs
 (setq-default tab-width 4) ;; Set the tab width to 4
 (setq-default c-basic-offset 4) ;; Set the offset for tabs to 4 for C, C++, Java files
