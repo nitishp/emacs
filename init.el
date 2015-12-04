@@ -7,6 +7,9 @@
 
 ;; Load the desert theme
 (load "~/.emacs.d/desert-theme.el")
+;; Show matching parens
+(show-paren-mode 1)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
