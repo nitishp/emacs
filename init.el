@@ -4,6 +4,7 @@
 (setq-default tab-width 4) ;; Set the tab width to 4
 (setq-default c-basic-offset 4) ;; Set the offset for tabs to 4 for C, C++, Java files
 (setq c-default-style "linux") ;; Get rid of the annoying bracket misalignment
+(add-hook 'prog-mode-hook #'hs-minor-mode) ;; enable minor mode on startup
 
 ;; Load the desert theme
 (load "~/.emacs.d/desert-theme.el")
